@@ -1,0 +1,23 @@
+.header {
+  background: linear-gradient(to right, #92f1e9, #9cff99);   
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hamburger-menu {
+  font-size: 24px;
+  cursor: pointer;
+  color: #fff; 
+}
+
+.logo {
+  margin: 0;
+  color: rgb(40, 39, 38); 
+}

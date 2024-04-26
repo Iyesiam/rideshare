@@ -1,0 +1,24 @@
+.footer {
+  background: linear-gradient(to right, #09dbc9, #9cff99);
+  color: #fff;
+  padding: 20px;
+  padding-bottom: 30px; /* Add padding to the bottom */
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-icon {
+  font-size: 30px;
+  color: #fbfff8;
+  margin-right: 50px;
+  margin-top: 20px; /* Add margin to the top */
+}
+
