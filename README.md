@@ -1,23 +1,26 @@
-# Getting Started with Create React App
+# RideShare
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+RideShare is a real-time ETA calculation project designed to provide accurate estimated time of arrival (ETA) calculations for a predefined route with multiple stops. 
+It utilizes React for the front-end development and integrates with the Google Maps API for map rendering and marker placement.
+# Features
 
-## Available Scripts
+1. Interactive map displaying the entire route with marked stops.
+2. Real-time tracking of the driver's current location.
+3. Calculation of ETA for each stop based on a constant average speed.
+4. Dynamic updating of information as the driver progresses along the route.
 
-In the project directory, you can run:
+# Prerequisites
 
-### `npm start`
+Before running the project, ensure you have the following:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. ## Node.js installed on your system.
+2. ## Google Maps API key for map rendering. You can obtain it from the Google Cloud Platform console.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+ # Getting Started
+Clone the repository to your local machine.
+Navigate to the project directory in your terminal.
+Install project dependencies by running the command:
+### npm install
 
 ### `npm run build`
 
@@ -68,3 +71,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+](https://github.com/Iyesiam/rideshare.git)
