@@ -1,18 +1,19 @@
 body {
+    background-color: rgb(243, 243, 238); 
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
   }
   
   .header {
-    background-color: #333;
+    background: linear-gradient(to right, #92f1e9, #9cff99);  
     color: #fff;
     padding: 20px;
     text-align: center;
   }
   
   .footer {
-    background-color: #333;
+    background: linear-gradient(to right, #09dbc9, #9cff99);
     color: #fff;
     padding: 20px;
     text-align: center;
