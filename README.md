@@ -12,63 +12,34 @@ It utilizes React for the front-end development and integrates with the Google M
 # Prerequisites
 
 Before running the project, ensure you have the following:
+1. Node.js installed on your system.
+2. Google Maps API key for map rendering. You can obtain it from the Google Cloud Platform console.
 
-1. ## Node.js installed on your system.
-2. ## Google Maps API key for map rendering. You can obtain it from the Google Cloud Platform console.
+# Getting Started
+ 
+1. Clone the repository to your local machine.
+2. Navigate to the project directory in your terminal.
+3. Install project dependencies by running the command:
+   
+### `npm install`
 
- # Getting Started
-Clone the repository to your local machine.
-Navigate to the project directory in your terminal.
-Install project dependencies by running the command:
-### npm install
+4. Replace YOUR_API_KEY in the App.js file with your Google Maps API key.
+5. Start the development server by running the command:
 
-### `npm run build`
+### `npm start`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Open your web browser and navigate to http://localhost:3000 to view the application.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Usage
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Upon loading the application, you'll see an interactive map displaying the entire route with marked stops.
+The ETA for each stop is calculated in real-time based on a predefined average speed.
+As the driver progresses along the route, updates displays dynamically to show information about the Next upcomming stop.
+The interface provides details such as the next stop, distance to the next stop, and ETA.
 
-### `npm run eject`
+# Credits
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+This project utilizes React for front-end development.
+The map rendering and marker placement are achieved using the Google Maps API.
+ETA calculations are performed using the Haversine formula for distance calculation.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-](https://github.com/Iyesiam/rideshare.git)
