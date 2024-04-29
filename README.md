@@ -21,16 +21,16 @@ Before running the project, ensure you have the following:
 2. Navigate to the project directory in your terminal.
 3. Install project dependencies by running the command:
    
-### `npm install`
+   ###  `npm install`
 
 4. Replace YOUR_API_KEY in the App.js file with your Google Maps API key.
 5. Start the development server by running the command:
 
-### `npm start`
+    ### `npm start`
 
 Open your web browser and navigate to http://localhost:3000 to view the application.
 
-# Usage
+ # Usage
 
 Upon loading the application, you'll see an interactive map displaying the entire route with marked stops.
 The ETA for each stop is calculated in real-time based on a predefined average speed.
