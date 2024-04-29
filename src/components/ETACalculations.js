@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './ETACalculations.css';
 
 const ETACalculations = () => {
-  const [currentStopIndex, setCurrentStopIndex] = useState(0);
+  const [currentStopIndex, setCurrentStopIndex] = useState(0); // Changed initial value to 0
   const [eta, setEta] = useState(null);
   const [distance, setDistance] = useState(null);
 
@@ -61,7 +61,7 @@ const ETACalculations = () => {
     <div className="ETACalculations">
       <div className="eta-container">
         <h2 className="eta-title">Nyabugogo - Kimironko</h2>
-        <p className="eta-info">Next Stop: {stops[currentStopIndex + 1] ? stops[currentStopIndex + 1].label : 'Final Destination'}</p>
+        <p className="eta-info">Next Stop: {stops[currentStopIndex - 1] ? stops[currentStopIndex - 1].label : 'Final Destination'}</p>
         <p className="eta-info">Distance: {distance} km</p>
         <p className="eta-info">Time: {eta} minutes</p>
       </div>
